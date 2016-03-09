@@ -70,7 +70,7 @@
 	display: block;
 }
 
-#sidebar ul{
+#sidebar {
 	float: left;
 	position: fixed;
 	height: 100%;
