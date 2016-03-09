@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	position: fixed;
+	top: 0;
 	width: 100%;
 	background-color: #014966;
 }
@@ -25,4 +26,32 @@
 
 #nav a:hover, #nav a:active {
 	background-color: #486A89;
+}
+
+#footer {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #014966;
+}
+
+#footer li {
+	float: right;
+	width: 7%;
+
+}
+
+#footer a:link, #nav a:visited {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px 0px;
+	color: #fff;
+	background-color: #014966;
+	display: block;
 }
