@@ -63,22 +63,17 @@
 	font-weight: normal;
 	font-size: 30px;
 	text-align: center;
-	text-decoration: none;
 	padding: 8px 8px;
 	left: 0;
 	top: 0;
-	color: #fff;
 	background-color: #A2D1DE;
 	display: block;
-}
-
-#sidebar {
 	float: left;
 	position: fixed;
 	height: 100%;
 }
 
-#sidebar li{
-height:25%;
-
-}
+#sidebar a:link, #sidebar a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
