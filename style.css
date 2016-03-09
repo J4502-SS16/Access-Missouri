@@ -77,3 +77,8 @@
 	position: fixed;
 	height: 100%;
 }
+
+#sidebar li{
+height:25%;
+
+}
