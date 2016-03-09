@@ -69,3 +69,9 @@
 	background-color: #A2D1DE;
 	display: block;
 }
+
+#sidebar ul{
+	float: left;
+	position: fixed;
+	height: 100%;
+}
