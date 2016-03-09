@@ -4,6 +4,7 @@
 	padding: 0;
 	position: fixed;
 	top: 0;
+	left: 0;
 	width: 100%;
 	background-color: #014966;
 }
@@ -34,16 +35,18 @@
 	padding: 0;
 	position: fixed;
 	bottom: 0;
+	left: 0;
 	width: 100%;
 	background-color: #014966;
 }
 
 #footer li {
 	float: right;
-	width: 7%;
+	width: 64px;
+	padding-right: 15px;
 }
 
-#footer a:link, #nav a:visited {
+#footer a:link, #footer a:visited {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 10px;
