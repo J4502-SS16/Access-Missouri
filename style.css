@@ -41,6 +41,7 @@
 	width: 100%;
 	position: fixed;
 	bottom: 0;
+	align: center;
 }
 
 #footer a:link, #footer a:visited {
@@ -49,7 +50,6 @@
 	text-decoration: none;
 	color: #fff;
 	padding: 10px;
-	align: center;
 }
 
 #footer a:active{
