@@ -28,6 +28,10 @@
 	background-color: #486A89;
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 #footer {
 	font-family:'Open Sans', sans-serif;
 	font-weight: normal;
@@ -36,6 +40,7 @@
 	padding: 8px 8px;
 	background-color: #A2D1DE;
 	height: 100%;
+	width: 20%;
 }
 
 #footer a:link, #footer a:visited {
