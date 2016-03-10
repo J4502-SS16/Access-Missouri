@@ -56,3 +56,12 @@
 #footer a:active{
 	background-color: #486A89;
 }
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	background-color: #A2D1DE;
+	text-align: center;
+	margin: 0;
+}
