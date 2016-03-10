@@ -8,15 +8,9 @@
 	background-color: #014966;
 }
 
-#nav li {
-	float: left;
-	width: 20%;
-}
-
 #nav a:link, #nav a:visited {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	text-align: center;
 	text-decoration: none;
 	padding: 4px 0px;
 	color: #fff;
@@ -28,18 +22,30 @@
 	background-color: #486A89;
 }
 
+#footer li{
+	float: left;
+	list-style-type: none;
+	text-align: center;
+}
+
 #footer {
 	font-family:'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 30px;
 	text-align: center;
-	padding: 8px 8px;
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+	left: 0;
 	background-color: #A2D1DE;
-	height: 100%;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 
 #footer a:link, #footer a:visited {
 	font-weight: bold;
+	text-align: center;
 	text-decoration: none;
 	color: #fff;
+	padding: 10px;
 }
