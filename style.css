@@ -44,7 +44,7 @@
 }
 
 #footer a:link, #footer a:visited {
-	font-weight: bold;
+	font-weight: normal;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
