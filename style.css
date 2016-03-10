@@ -34,8 +34,7 @@
 	text-align: center;
 	font-size: 30px;
 	padding: 0;
-	margin left: auto;
-	margin right: auto;
+	margin: 0;
 	left: 0;
 	background-color: #A2D1DE;
 	width: 100%;
@@ -49,4 +48,5 @@
 	text-decoration: none;
 	color: #fff;
 	padding: 10px;
+	float: center;
 }
