@@ -23,7 +23,7 @@
 	background-color: #486A89;
 }
 
-#footer li{
+#footer li {
 /*	float: left;*/
 	list-style-type: none;
 	text-align: center;
@@ -53,11 +53,11 @@
 	padding: 10px;
 }
 
-#footer a:active{
+#footer a:active {
 	background-color: #486A89;
 }
 
-h2{
+h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 50px;
@@ -87,7 +87,7 @@ p {
 	margin-bottom:1.5em;
 }
 
-.button{
+.button {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	background-color: #949893;
@@ -99,6 +99,10 @@ p {
 	padding: 10px;
 }
 
+.button a:active {
+	background-color: #5C6663;
+}
+
 input[type=text] {
 		width: 100%;
     padding: 12px 20px;
@@ -107,10 +111,11 @@ input[type=text] {
 		border-color: #949893;
 }
 
-
 input[type=text]:focus {
 		    border: 3px solid #014966;
 }
+
+
 
 form {
 	font-family: 'Open sans', sans-serif;
