@@ -38,6 +38,10 @@
 	display: block;
 }
 
+.nav a:active {
+	background-color: #5C6663;
+}
+
 
 #footer li {
 /*	float: left;*/
