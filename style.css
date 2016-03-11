@@ -95,13 +95,19 @@ h2 {
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 36px;
+	font-size: 20px;
 	text-align: left;
 	font-weight: normal;
 	margin-top:1.5em;
 }
 
 p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 14px;
+	margin-bottom:1.5em;
+}
+
+ul {
 	font-family: 'Gentium Book Basic', serif;
 	font-size: 14px;
 	margin-bottom:1.5em;
@@ -125,6 +131,7 @@ p {
 
 input[type=text] {
 		width: 100%;
+		font-size: 44px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -137,6 +144,7 @@ input[type=text]:focus {
 
 input[type=body] {
 	width: 100%;
+	font-size: 44px;
 	height: 300px;
 	padding: 12px 20px;
 	margin: 8px 0;
