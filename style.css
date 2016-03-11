@@ -125,6 +125,7 @@ p {
 
 input[type=text] {
 		width: 100%;
+		font-size: 44px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
