@@ -65,3 +65,9 @@ h1{
 	text-align: center;
 	margin: 0;
 }
+
+#section {
+	height: 290px;
+	background-color: #949893;
+	margin-top: 50px;
+}
