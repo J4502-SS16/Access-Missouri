@@ -23,6 +23,22 @@
 	background-color: #486A89;
 }
 
+.nav {
+	list-style-type: none;
+	font-size: 30px;
+}
+
+.nav {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	background-color: #949893;
+	color: #fff;
+	display: block;
+}
+
+
 #footer li {
 /*	float: left;*/
 	list-style-type: none;
@@ -114,8 +130,6 @@ input[type=text] {
 input[type=text]:focus {
 		    border: 3px solid #014966;
 }
-
-
 
 form {
 	font-family: 'Open sans', sans-serif;
