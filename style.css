@@ -99,6 +99,21 @@ p {
 	padding: 10px;
 }
 
+input[type=text] {
+		width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+		border-color: #949893;
+}
+
+
+input[type=text]:focus {
+		    border: 3px solid #014966;
+}
+
 form {
-	
+	font-family: 'Open sans', sans-serif;
+	font-size: 30px;
+	padding-top: 15px;
 }
