@@ -167,7 +167,30 @@ form {
 	padding-bottom: 110px;
 }
 
+<<<<<<< Updated upstream
 #text-align{
 	text-align: center;
 	padding-top: 20px;
+=======
+div #banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-weight: normal;
+	text-align: center;
+	font-family:'Open Sans', sans-serif;
+}
+
+div #banner-content {
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #000;
+	color: #fff;
+	background-color: #949893;
+	padding: 10px;
+	font-family:'Open Sans', sans-serif;
+	font-size: 50px;
+>>>>>>> Stashed changes
 }
