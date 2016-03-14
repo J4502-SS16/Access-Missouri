@@ -166,3 +166,7 @@ form {
 #body {
 	padding-bottom: 110px;
 }
+
+#text-align{
+	text-align: center;
+}
