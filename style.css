@@ -5,7 +5,7 @@
 	padding: 0;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 100vw;
 	background-color: #014966;
 }
 
@@ -60,7 +60,7 @@
 	margin: 0 auto;
 	left: 0;
 	background-color: #949893;
-	width: 100%;
+	width: 100vw;
 	position: fixed;
 	bottom: 0;
 }
@@ -131,7 +131,7 @@ ul {
 }
 
 input[type=text] {
-		width: 100%;
+		width: 100vw;
 		font-size: 44px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -144,7 +144,7 @@ input[type=text]:focus {
 }
 
 input[type=body] {
-	width: 100%;
+	width: 100vw;
 	font-size: 44px;
 	height: 300px;
 	padding: 12px 20px;
@@ -175,14 +175,14 @@ form {
 #banner {
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 100vw;
 	font-weight: normal;
 	text-align: center;
 	font-family:'Open Sans', sans-serif;
 }
 
 #banner-content {
-	width: 100%;
+	width: 100vw;
 	margin: 0 auto;
 	padding: 10px;
 	border: 1px solid #000;
