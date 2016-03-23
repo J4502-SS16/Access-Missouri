@@ -61,7 +61,7 @@
 	left: 0;
 	background-color: #949893;
 	width: 100%;
-	position: fixed;
+	position:fixed;
 	bottom: 0;
 }
 
@@ -158,8 +158,6 @@ form {
 	font-family: 'Open sans', sans-serif;
 	font-size: 30px;
 	padding-top: 15px;
-
-
 }
 
 
@@ -173,7 +171,6 @@ form {
 }
 
 #banner {
-	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -192,4 +189,33 @@ form {
 	padding: 10px;
 	font-family:'Open Sans', sans-serif;
 	font-size: 50px;
+}
+
+.lawmakerimage {
+	float: left;
+	margin-left: 100px;
+	margin-right:0px;
+	margin-bottom: 100px;
+	padding:0;
+}
+
+.lawmakertext {
+	font-size: 30px;
+	margin:0;
+	padding:0;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	/*margin: 100px;*/
+}
+
+.lawmaker {
+	width:60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.lawmakerbox {
+	display: flex;
+	flex-direction: column;
 }
