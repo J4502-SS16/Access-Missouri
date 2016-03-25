@@ -1,0 +1,221 @@
+#nav {
+	list-style-type: none;
+	font-size: 40px;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #014966;
+}
+
+#nav a:link, #nav a:visited {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 7px 0px;
+	color: #fff;
+	background-color: #014966;
+	display: block;
+}
+
+#nav a:active {
+	background-color: #486A89;
+}
+
+.nav {
+	list-style-type: none;
+	font-size: 30px;
+}
+
+.nav {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	background-color: #949893;
+	color: #fff;
+	display: block;
+}
+
+.nav a:active {
+	background-color: #5C6663;
+}
+
+
+#footer li {
+/*	float: left;*/
+	list-style-type: none;
+	text-align: center;
+	display: inline;
+	padding: 12px;
+}
+
+#footer {
+	font-family:'Open Sans', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	font-size: 50px;
+	padding: 16px 18px;
+	margin: 0 auto;
+	left: 0;
+	background-color: #949893;
+	width: 100%;
+	position:fixed;
+	bottom: 0;
+}
+
+#footer a:link, #footer a:visited {
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+}
+
+#footer a:active {
+	background-color: #486A89;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 50px;
+	background-color: #A2D1DE;
+	text-align: center;
+	margin: 0;
+}
+
+.section {
+	height: 290px;
+	background-color: #949893;
+	margin-top: 50px;
+}
+
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	font-weight: normal;
+	margin-top:1.5em;
+}
+
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 14px;
+	margin-bottom:1.5em;
+}
+
+ul {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 14px;
+	margin-bottom:1.5em;
+}
+
+.button {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	background-color: #949893;
+	border: none;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	width: 120px;
+	padding: 10px;
+}
+
+.button a:active {
+	background-color: #5C6663;
+}
+
+input[type=text] {
+		width: 100%;
+		font-size: 44px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+		border-color: #949893;
+}
+
+input[type=text]:focus {
+		    border: 3px solid #014966;
+}
+
+input[type=body] {
+	width: 100%;
+	font-size: 44px;
+	height: 300px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-color: #949893;
+}
+
+
+form {
+	font-family: 'Open sans', sans-serif;
+	font-size: 30px;
+	padding-top: 15px;
+}
+
+
+#body {
+	padding-bottom: 110px;
+}
+
+#text-align{
+	text-align: center;
+	padding-top: 20px;
+}
+
+#banner {
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-weight: normal;
+	text-align: center;
+	font-family:'Open Sans', sans-serif;
+}
+
+#banner-content {
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #000;
+	color: #fff;
+	background-color: #949893;
+	padding: 10px;
+	font-family:'Open Sans', sans-serif;
+	font-size: 50px;
+}
+
+.lawmakerimage {
+	float: left;
+	margin-left: 100px;
+	margin-right:0px;
+	margin-bottom: 100px;
+	padding:0;
+}
+
+.lawmakertext {
+	font-size: 30px;
+	margin:0;
+	padding:0;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	/*margin: 100px;*/
+}
+
+.lawmaker {
+	width:60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.lawmakerbox {
+	display: flex;
+	flex-direction: column;
+}
