@@ -7,91 +7,35 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
 
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<title>	Access Missouri </title>
 	<meta http-equiv="content-type"
 		content="text/html;charset=utf-8" />
-  <link rel="stylesheet" href="main.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+
 </head>
 
 <body>
-
-<!-- *******************
-        Header Starts Here
-************ *************-->
-
-  <header>
-    <div id="banner">
-    <h1>Access Missouri</h1>
-  </div> <!--end of banner -->
-
-    <nav>
-      <a href="#" class="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </a>
-      <ul class="clearfix menu">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="bills.html">Bills</a></li>
-        <li><a href="lawmakers.html">Lawmakers</a></li>
-        <li><a href="search.html">Search</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <script src="js/vendor/jquery-1.11.2.min.js"></script>
-  <script src="js/main.js"></script>
-
-
-
-  <!-- *******************
-        Profile page goes here
-  ************ *************-->
-    <h2 class="indicator"> Personal Dashboard </h2>
-
-<div class="login">
-  <h3>Login with an Existing Account</h3>
-  <form>
-  E-mail:<br>
-  <input type="text" name="email"><br>
-  Password:<br>
-  <input type="text" name="password">
-  <input class="button" value="Login">
-  </form>
+  <div id="banner">
+  <div id="banner-content">
+    Access Missouri
+  </div>
 </div>
+  <ul id="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="bills.html">Bills</a></li>
+    <li><a href="lawmakers.html">Lawmakers</a></li>
+    <li><a href="search.html">Search</a></li>
+    <li><a href="contactus.html">Contact Us</a></li>
+    <li><a href="privacy.html">Privacy</a></li>
+    <li><a href="terms.html">Terms</a></li>
+  </ul>
+<div id="body">
+  <h2>Your Profile</h2>
 
-<div class="create">
-  <h3>Create a New Account</h3>
-  <form>
-    First Name:<br>
-    <input type="text" name="firstname"><br>
-    Lastname:<br>
-    <input type="text" name="lastname">
-    City:<br>
-    <input type="text" name="city">
-    Zip Code:<br>
-    <input type="text" name="zip">
-    <input class="button" value="Login">
-    <input class="button" value="Submit">
-  </form>
-</div>
-
-<div class="topics">
-  <h3>My Topics</h3>
-  <form>
-  <input type="checkbox" name="My Topics" value="Environment" checked> Environment<br>
-  <input type="checkbox" name="My Topics" value="Business" checked> Business<br>
-  <input type="checkbox" name="My Topics" value="Community" checked> Community<br>
-  <input type="checkbox" name="My Topics" value="Arts" checked> Arts<br>
-  <input type="checkbox" name="My Topics" value="Education" checked> Education<br>
-  <input type="checkbox" name="My Topics" value="LGBTQ" checked> LGBTQ<br>
-  <input type="checkbox" name="My Topics" value="Crime" checked> Crime<br>
-  <input class="button" value="Submit">
-</form>
-</div>
-
-  <!--
   <form>
     <fieldset>
       <legend>Login with an Existing Account</legend>
@@ -104,66 +48,59 @@
       <input class="button" value="Submit">
     </fieldset>
   </form>
-  <br>
-  <br>
-      <form>
-      <fieldset>
-        <legend>Create a New Account:</legend>
-        First name:<br>
-        <input type="text" name="firstname" value="First Name"><br>
-        Last name:<br>
-        <input type="text" name="lastname" value="Last Name"><br>
-        City:<br>
-        <input type="text" name="city" value="City"><br>
-        Zip Code:<br>
-        <input type="text" name="zipcode" value="Zip Code"><br>
-
-
-    </form>
-
-
-  <h3>My Topics</h3>
-
+<br>
+<br>
     <form>
-    <input type="checkbox" name="My Topics" value="Environment" checked> Environment<br>
-    <input type="checkbox" name="My Topics" value="Business" checked> Business<br>
-    <input type="checkbox" name="My Topics" value="Community" checked> Community<br>
-    <input type="checkbox" name="My Topics" value="Arts" checked> Arts<br>
-    <input type="checkbox" name="My Topics" value="Education" checked> Education<br>
-    <input type="checkbox" name="My Topics" value="LGBTQ" checked> LGBTQ<br>
-    <input type="checkbox" name="My Topics" value="Crime" checked> Crime<br>
+    <fieldset>
+      <legend>Create a New Account:</legend>
+      First name:<br>
+      <input type="text" name="firstname" value="First Name"><br>
+      Last name:<br>
+      <input type="text" name="lastname" value="Last Name"><br>
+      City:<br>
+      <input type="text" name="city" value="City"><br>
+      Zip Code:<br>
+      <input type="text" name="zipcode" value="Zip Code"><br>
+
+
   </form>
 
-  <h3>My Lawmakers</h3>
 
-  <div class="section">
-    </div>
+<h3>My Topics</h3>
 
+  <form>
+  <input type="checkbox" name="My Topics" value="Environment" checked> Environment<br>
+  <input type="checkbox" name="My Topics" value="Business" checked> Business<br>
+  <input type="checkbox" name="My Topics" value="Community" checked> Community<br>
+  <input type="checkbox" name="My Topics" value="Arts" checked> Arts<br>
+  <input type="checkbox" name="My Topics" value="Education" checked> Education<br>
+  <input type="checkbox" name="My Topics" value="LGBTQ" checked> LGBTQ<br>
+  <input type="checkbox" name="My Topics" value="Crime" checked> Crime<br>
+</form>
 
-  <h3>My Bills</h3>
-  <div class="section">
-    </div>
-    <br>
-  <input class="button" value="Submit">
-  </fieldset>
+<h3>My Lawmakers</h3>
 
--->
-
-  <!-- *******************
-        Footer Starts Here
-  ************ *************-->
-
-    <div id="footer">
-      <a href="https://twitter.com/share?url=http%3A%2F%2Fwww.accessmissouri.org%2F%2Findex.php%3F" target="_blank"><img src="img/twitter.png" alt="twitter logo" class="social-icon"></a>
-      <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.accessmissouri.org%2F%2Findex.php%3F" target="_blank"><img src="img/facebook.png" alt="facebook logo" class="social-icon"></a>
-      <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Fwww.accessmissouri.org%2F%2Findex.php%3F" target="_blank"><img src="img/LinkedIn.png" alt="linkedin logo" class="social-icon"></a>
-      <a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.accessmissouri.org%2F%2Findex.php%3F"><img src="img/google.png" alt="google logo" class="social-icon"></a>
-      <a href="https://www.pinterest.com/join/?next=/pin/create/button/%3Furl%3Dhttp%253A%252F%252Fwww.accessmissouri.org%252F%252Findex.php%253F%26media%3Dhttp%3A//www.accessmissouri.org/apple-touch-icon.png
-      target="_blank""><img src="img/pinterest.png" alt="pinterest logo" class="social-icon"></a>
-    <p>&copy 2014-2016 Access Missouri  .<a href="privacy.html">Privacy</a>  .<a href="terms.html">Terms</a>  .<a href="contact.html">Contact</a></p>
-    </div> <!-- end of footer----->
+<div class="section">
+  </div>
 
 
+<h3>My Bills</h3>
+<div class="section">
+  </div>
+  <br>
+<input class="button" value="Submit">
+</fieldset>
 
+</div><!--closing body div-->
+  <ul id="footer">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="newsfeed.html">News</a></li>
+    <li><a href="trending.html">Trending</a></li>
+    <li><a href="profile.html">Profile</a></li>
+  </ul>
+
+<!--This is a comment. It won't show up in your browser, only in the page source-->
+	<p> </p>
 </body>
+
 </html>
