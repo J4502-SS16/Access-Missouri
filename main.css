@@ -1,0 +1,577 @@
+  *, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*****
+html, body {
+
+}
+
+body {
+  font: 1em 'Roboto', sans-serif;
+  color: #555;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+****/
+
+body {
+  font-family: "Gentium Book Basic", sans-serif;
+}
+/* header*
+----------------------------- */
+#banner {
+  width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #000;
+	color: #fff;
+	background-color: #949893;
+	padding: 10px;
+	font-family:'Open Sans', sans-serif;
+	font-size: 30px;
+}
+
+
+ul {
+  list-style: none;
+  max-width: 800px;
+  margin: 0 auto;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+h1 {
+  padding: 30px 0;
+  font: 1.5em 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+nav {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #014966;
+}
+
+ul a {
+  display: block;
+  padding: 20px;
+  padding-right: 0 !important; /* important overrides media queries */
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul a:hover {
+  background: #eee;
+}
+
+nav li {
+  float: left;
+  width: 20%;
+  border-right: 1px solid #ddd;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .hamburger {
+    padding: 15px;
+    display: block;
+  }
+
+  .line {
+    border-bottom: 4px solid #bbb;
+    width: 35px;
+    margin-bottom: 6px;
+  }
+
+  .line:last-child {
+    margin-bottom: 0;
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+  .menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s linear;
+  }
+
+  .slide-down {
+    height: 275px;
+  }
+}
+
+.indicator {
+  font-size: 2.5em;
+  background-color: 	#87cefa;
+  text-align: center;
+  padding: 0.25em;
+}
+
+/*-----footer style--------*/
+#footer{
+  background-color: #014966;
+  color:#fff;
+  font-size: 0.7em;
+  font-family: 'Gentium Book Basic', serif;
+  padding:10px;
+  text-align: center;
+}
+
+
+#footer a{
+  color: #fff;
+  font-weight: bold;
+}
+
+.social-icon{
+  width:20px;
+  height:20px;
+  margin:0 5px;
+}
+
+
+
+
+
+
+
+/*-------- Home page style ---------*/
+ #intro{
+   width: 70%;
+   margin:30px auto;
+   padding:20px;
+   font-size: 1.5em;
+   font-family: 'Gentium Book Basic', serif;
+   color: #000000;
+ }
+/*------------------------------- */
+
+#dashboard {
+  margin:auto;
+  margin-bottom: 30px;
+  padding:10px;
+  background-color:#cccccc;
+  font-family: 'Gentium Book Basic', serif;
+  color: #000000;
+}
+
+#dashboard h2, p, a{
+  width: 60%;
+  margin:0 auto;
+  padding: 30px 0;
+}
+
+#dashboard h2 {
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 1px solid #5a5a5a;
+  padding-bottom: 5px;
+}
+
+#dashboard p {
+  font-size: 1.25em;
+  padding-top: 10px;
+}
+
+#dashboard a {
+  color: #014966;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#dashboard a:hover {
+    background: #eee;
+  }
+/*---------------------------------- */
+.home-search {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 70px auto;
+}
+
+.box1,
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+.home-search h3 {
+  font-size: 2.5em;
+  text-align: center;
+  border-bottom: 1px solid #5a5a5a;
+  padding-bottom: 10px;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.home-search h4 {
+  font-size: 1.3em;
+  color: #014966;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.home-search form {
+  font-size: 1.5em;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-family: 'Gentium Book Basic', serif;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.home-search button {
+    background-color: #949893;
+    border: none;
+    color: white;
+    margin-top:0;
+    padding: 0 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*
+#search {
+  margin:30px auto;
+  width:80%;
+  margin-top: 70px;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+#search h3 {
+  font-size: 2.5em;
+  text-align: center;
+  border-bottom: 1px solid #5a5a5a;
+  padding-bottom: 10px;
+}
+
+#search h4 {
+  font-size: 1.8em;
+  margin:20px auto;
+  color: #014966;
+}
+
+#search .button {
+  font-size: 15px;
+  background-color: #949893;
+  border: none;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 120px;
+  padding: 10px;
+}
+
+.button a:active {
+  background-color: #5C6663;
+}
+
+#search input[type=text] {
+    width: 100%;
+    font-size: 0.5em;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: #949893;
+}
+
+input[type=text]:focus {
+        border: 3px solid #014966;
+}
+
+input[type=body] {
+  width: 100%;
+  font-size: 1.5em;
+  height: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: #949893;
+}
+
+
+form {
+  font-size: 1.5em;
+  padding-top: 15px;
+
+}
+*/
+
+.news {
+  margin:30px auto;
+  width:80%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.news h3 {
+  font-size: 2.5em;
+  text-align: center;
+  border-bottom: 1px solid #5a5a5a;
+  padding-bottom: 10px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.article1,
+.article2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.75em;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex: 1 200px;
+  align-items: flex-start;
+}
+
+.news h4,
+.news p {
+  margin-left: 1em;
+}
+
+.news time {
+  margin-left: 1.5em;
+}
+
+.news h4 {
+  font-size: 1.5em;
+}
+
+.news a {
+  text-decoration: none;
+  color: #000;
+}
+
+.news a:hover {
+  color: navy;
+}
+
+.news time {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.news button {
+    background-color: #949893;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+       Profile Page Style
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+  .login,
+  .create,
+  .topics {
+    margin:30px auto;
+    width:80%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gentium Book Basic', serif;
+  }
+
+
+
+
+  .button {
+  	font-family: 'Open Sans', sans-serif;
+  	font-size: 30px;
+  	background-color: #949893;
+  	border: none;
+  	color: #fff;
+  	text-align: center;
+  	display: inline-block;
+  	width: 120px;
+  	padding: 10px;
+  }
+
+  .button a:active {
+  	background-color: #5C6663;
+  }
+
+  input[type=text] {
+  		width: 100%;
+  		font-size: 2em;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+  		border-color: #949893;
+  }
+
+  input[type=text]:focus {
+  		    border: 3px solid #014966;
+  }
+
+  input[type=body] {
+  	width: 100%;
+  	font-size: 2em;
+  	height: 300px;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	border-color: #949893;
+  }
+
+  form {
+    font-size: 1.5em;
+    padding-top: 15px;
+
+  }
+
+  .login h3,
+  .create h3,
+  .topics h3 {
+    font-size: 2em;
+    text-align: center;
+    color: #014966;
+  }
+
+  /* ==============================================
+           Lawmaker Style
+    ============================================= */
+.lawmakers,
+.lawmaker-info{
+  display: flex;
+  flex-direction: column;
+  margin:30px auto;
+  width:80%;
+  margin-top: 100px;
+}
+
+.lawmaker1,
+.lawmaker2,
+.lawmaker3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.lawmaker-info img,
+.lawmaker-info section {
+  margin-left: 2em;
+}
+
+.lawmaker-info section {
+  flex-grow: 1;
+}
+
+
+    .lawmakerimage {
+    	float: left;
+    	margin-left: 100px;
+    	margin-right:0px;
+    	margin-bottom: 100px;
+    	padding:0;
+    }
+
+    .lawmakertext {
+    	font-size: 30px;
+    	margin:0;
+    	padding:0;
+    	display: block;
+    	align-items: center;
+    	justify-content: center;
+    	/*margin: 100px;*/
+    }
+
+    .lawmaker {
+    	width:60%;
+    	margin: 0 auto;
+    	text-align: center;
+    }
+
+    .lawmakerbox {
+    	display: flex;
+    	flex-direction: column;
+    }
+
+/* ==================================================
+              Result Page Style
+============================================ */
+
+.search-nav {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	background-color: #cccccc;
+	color: #000;
+  min-width: 100%;
+  margin: 30px auto;
+}
+
+.search-nav li {
+  font-size: 1.5em;
+}
+
+.result1 {
+  width:80%;
+  margin: 0 auto;
+}
+
+
+.result2-1,
+.result2-2,
+.result2-3,
+.result2-4,
+.result2-5 {
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.result2 section {
+  margin-left: 15px;
+}
