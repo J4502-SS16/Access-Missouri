@@ -479,6 +479,7 @@ article {
   /* ==============================================
            Lawmaker Style
     ============================================= */
+
 .lawmakers,
 .lawmaker-info{
   display: flex;
@@ -575,7 +576,7 @@ article {
 .result2 section {
   margin-left: 15px;
 }
-
+/*
 .container{
   display: flex;
   flex-direction: row;
@@ -594,3 +595,4 @@ article {
 		margin-right: auto;
 	}
 }
+*/
