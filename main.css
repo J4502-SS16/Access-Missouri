@@ -76,7 +76,8 @@ ul a {
 }
 
 ul a:hover {
-  background: #eee;
+   text-decoration: underline;
+   background: none;
 }
 
 nav li {
@@ -89,7 +90,11 @@ nav li:last-child {
   border-right: none;
 }
 
-@media only screen and (max-width: 480px) {
+/* Humberger Menu*
+----------------------------- */
+
+
+@media only screen and (max-width: 780px) {
 
   .hamburger {
     padding: 15px;
@@ -113,11 +118,12 @@ nav li:last-child {
   .menu {
     height: 0;
     overflow: hidden;
-    transition: height 0.3s linear;
+    transition: height 0.5s linear;
   }
 
   .slide-down {
-    height: 275px;
+    height: 300px;
+    margin: 0 0 5px 0;
   }
 }
 
@@ -238,9 +244,10 @@ nav li:last-child {
 }
 
 input[type="text"] {
+  border: 1px solid #949893;
   display: block;
-  margin: 0;
-  width: 100%;
+  margin: 10;
+  width: 75%;
   font-family: 'Gentium Book Basic', serif;
   appearance: none;
   box-shadow: none;
@@ -577,6 +584,7 @@ article {
   margin-left: 15px;
 }
 
+<<<<<<< HEAD
 .container{
   display: flex;
   flex-direction: row;
@@ -595,3 +603,30 @@ article {
 		margin-right: auto;
 	}
 }
+=======
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+       Search Page Style
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+  .search_menu {
+    display: flex;
+    float: left;
+  }
+
+  .menu_item {
+    background: #C5C3C3;
+    margin: 3px;
+    font-size: 30px;
+    padding：2px;
+  }
+
+  .search_go {
+    font-size: 30px;
+    margin: 0 0 5px 20px;
+  }
+
+
+
+
+>>>>>>> origin/gh-pages
