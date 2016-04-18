@@ -590,14 +590,21 @@ article {
 
   .search_menu {
     display: flex;
-    flex-flow: row wrap;
-
+    float: left;
   }
 
   .menu_item {
-    background: gray;
-    margin: 5px;
+    background: #C5C3C3;
+    margin: 3px;
     font-size: 30px;
+    padding：2px;
   }
+
+  .search_go {
+    font-size: 30px;
+    margin: 0 0 5px 20px;
+  }
+
+
 
 
