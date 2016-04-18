@@ -76,7 +76,8 @@ ul a {
 }
 
 ul a:hover {
-  background: #eee;
+   text-decoration: underline;
+   background: none;
 }
 
 nav li {
@@ -89,7 +90,11 @@ nav li:last-child {
   border-right: none;
 }
 
-@media only screen and (max-width: 480px) {
+/* Humberger Menu*
+----------------------------- */
+
+
+@media only screen and (max-width: 780px) {
 
   .hamburger {
     padding: 15px;
@@ -113,11 +118,12 @@ nav li:last-child {
   .menu {
     height: 0;
     overflow: hidden;
-    transition: height 0.3s linear;
+    transition: height 0.5s linear;
   }
 
   .slide-down {
-    height: 275px;
+    height: 300px;
+    margin: 0 0 5px 0;
   }
 }
 
@@ -585,6 +591,13 @@ article {
   .search_menu {
     display: flex;
     flex-flow: row wrap;
+
+  }
+
+  .menu_item {
+    background: gray;
+    margin: 5px;
+    font-size: 30px;
   }
 
 
