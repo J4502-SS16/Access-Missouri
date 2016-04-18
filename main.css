@@ -45,10 +45,11 @@ body {
 
 ul {
   list-style: none;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
+  padding: 0;
+/*  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;*/
 }
 
 h1 {
@@ -58,8 +59,8 @@ h1 {
 }
 
 nav {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+/*  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;*/
   background-color: #014966;
 }
 
@@ -75,15 +76,16 @@ ul a {
   text-decoration: none;
 }
 
-ul a:hover {
+li a:hover {
    text-decoration: underline;
-   background: none;
+   background-color: #a2d1de;
+   padding: 20px;
 }
 
 nav li {
   float: left;
   width: 20%;
-  border-right: 1px solid #ddd;
+  /*border-right: 1px solid #ddd;*/
 }
 
 nav li:last-child {
@@ -113,6 +115,10 @@ nav li:last-child {
 
   nav li {
     width: 100%;
+  }
+
+  ul a:hover {
+   text-decoration: none;
   }
 
   .menu {
@@ -611,6 +617,7 @@ article {
 
   .search_menu {
     display: flex;
+    flex-flow: row;
     float: left;
   }
 
@@ -642,5 +649,3 @@ article {
     margin-top: 100px;
   }
 
-
->>>>>>> origin/gh-pages
