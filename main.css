@@ -508,7 +508,9 @@ article {
 
 .lawmaker1,
 .lawmaker2,
-.lawmaker3 {
+.lawmaker3,
+.lawmaker4,
+.lawmaker5 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -663,7 +665,7 @@ article {
     margin: 0 0 20px 0;
   }
 
-  #bills {
+  #bill {
     margin:30px auto;
     width:80%;
     margin-top: 100px;
@@ -673,9 +675,9 @@ article {
 <<<<<<< HEAD
 <<<<<<< HEAD
 
-
+/*
 .bill,
-.bill-info{
+.bill-info-info{
   display: flex;
   flex-direction: column;
   margin:30px auto;
@@ -718,29 +720,7 @@ article {
     	align-items: center;
     	justify-content: center;
     	/*margin: 100px;*/
-   }
-
-   .billtitle a:link {
-     font-size: 30px;
-     margin:0;
-     padding:0;
-     display: block;
-     align-items: center;
-     justify-content: center;
-     text-decoration: none;
-     /*margin: 100px;*/
-  }
-
-  .billtitle a:hover {
-    font-size: 30px;
-    margin:0;
-    padding:0;
-    display: block;
-    text-align: left;
-    text-decoration: none;
-    color: #014966;
-    /*margin: 100px;*/
-  }
+    }
 
     .bill {
     	width:60%;
@@ -752,7 +732,7 @@ article {
     	display: flex;
     	flex-direction: column;
     }
-
+*/
 
 
   /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
