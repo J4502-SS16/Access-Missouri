@@ -554,6 +554,22 @@ article {
     	flex-direction: column;
     }
 
+    .exlawmakerimage{
+      float: center;
+      margin-left: 100px;
+      margin-right:0px;
+      margin-bottom: 100px;
+      padding:0;
+    }
+
+    .exlawmakertext {
+    	font-size: 30px;
+    	margin:0;
+    	padding:0;
+    	display: block;
+    	align-items: center;
+    	justify-content: center;
+
 /* ==================================================
               Result Page Style
 ============================================ */
