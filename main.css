@@ -657,6 +657,65 @@ article {
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+/* GOING TO BE BILL STYLE LATER
+.lawmakers,
+.lawmaker-info{
+  display: flex;
+  flex-direction: column;
+  margin:30px auto;
+  width:80%;
+  margin-top: 100px;
+}
+
+.bill1,
+.bill2,
+.bill3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.lawmaker-info img,
+.lawmaker-info section {
+  margin-left: 2em;
+}
+
+.lawmaker-info section {
+  flex-grow: 1;
+}
+
+
+    .lawmakerimage {
+    	float: left;
+    	margin-left: 100px;
+    	margin-right:0px;
+    	margin-bottom: 100px;
+    	padding:0;
+    }
+
+    .billtext {
+    	font-size: 30px;
+    	margin:0;
+    	padding:0;
+    	display: block;
+    	align-items: center;
+    	justify-content: center;
+    	/*margin: 100px;*/
+/*   }
+
+    .lawmaker {
+    	width:60%;
+    	margin: 0 auto;
+    	text-align: center;
+    }
+
+    .lawmakerbox {
+    	display: flex;
+    	flex-direction: column;
+    } */
+
+
 
   /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
          Contactus Page Style
