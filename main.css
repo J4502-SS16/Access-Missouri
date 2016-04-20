@@ -738,6 +738,7 @@ article {
   /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
          Contactus Page Style
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+<<<<<<< Updated upstream
     .contact {
       width: 80%;
       margin: auto;
@@ -837,5 +838,18 @@ article {
                 background-color: #9DB668;
                 box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
             }
-          
 
+
+=======
+   .contact {
+     width: 80%;
+     margin: 3em;
+   }
+
+
+    =======
+    >>>>>>> origin/gh-pages
+    =======
+    >>>>>>> origin/gh-pages
+    >>>>>>> Stashed changes
+>>>>>>> Stashed changes
