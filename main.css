@@ -633,13 +633,17 @@ article {
     margin: 0 0 5px 20px;
   }
 
+  input [type="radio"] {
+    display: none;
+  }
+
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
        Bills Page Style
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
   .search_button {
-    width: 10em; 
+    width: 10em;
     margin: 0 0 20px 0;
   }
 
@@ -648,4 +652,3 @@ article {
     width:80%;
     margin-top: 100px;
   }
-

@@ -40,10 +40,13 @@
         <li><a href="search.html">Search</a></li>
       </ul>
     </nav>
+
+
   </header>
 
   <script src="js/vendor/jquery-1.11.2.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/search.js"></script>
 
 
   <!-- *******************
@@ -59,10 +62,19 @@
     <li class="menu_item">Bills</li>
   </ul>
 
-  <form>
-    <input type="text" name="name" placeholder=" Search by keyword" class="search_bar"><br>
-    <input type="submit" value="search" class="search_button"/>
+  <form class="search_menu" action="">
+    <input type="radio" name="search" value="All" class="menu_item">All<br>
+    <input type="radio" name="search" value="Lawmakers" class="menu_item">Lawmakers<br>
+    <input type="radio" name="search" value="Address" class="menu_item">Address<br>
+    <input type="radio" name="search" value="Date" class="menu_item">Date<br>
+    <input type="radio" name="search" value="Bills" class="menu_item">Bills<br>
+      <input type="search" id="search_text" placeholder="search" name="search_text"/>
+    <button type="submit" value="search">Submit</button>
   </form>
+</div>
+
+
+
 </div><!--closing body div-->
 
     <!-- *******************
