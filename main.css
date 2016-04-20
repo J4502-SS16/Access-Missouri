@@ -637,7 +637,7 @@ article {
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
-  .search_menu {
+/*.search_menu {
     display: flex;
     flex-flow: row;
     float: left;
@@ -653,7 +653,37 @@ article {
   .search_go {
     font-size: 30px;
     margin: 0 0 5px 20px;
-  }
+  }*/
+
+  label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+input[type=radio] {
+    display: none;
+    padding-left: 20px;
+    padding-right: 2px;
+}
+
+label:before {
+    content: "";
+    display: inline-block;
+
+    width: 16px;
+    height: 16px;
+
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #aaa;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
 
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

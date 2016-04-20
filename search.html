@@ -54,13 +54,19 @@
   ************ *************-->
   <h2 class="indicator"> Search </h2>
 
-    <form class="search_menu" action="">
-    <input type="radio" name="search" value="All" class="menu_item">All<br>
-    <input type="radio" name="search" value="Lawmakers" class="menu_item">Lawmakers<br>
-    <input type="radio" name="search" value="Address" class="menu_item">Address<br>
-    <input type="radio" name="search" value="Date" class="menu_item">Date<br>
-    <input type="radio" name="search" value="Bills" class="menu_item">Bills<br>
-      <input type="search" id="search_text" placeholder="search" name="search_text"/>
+<div class="radio">
+  <form class="search_menu">
+    <input type="radio" name="search" value="All">
+    <label for="All">All</label>
+    <input type="radio" name="search" value="Lawmakers">
+    <label for="Lawmakers">Lawmakers</label>
+    <input type="radio" name="search" value="Address">
+    <label for="Address">Address</label>
+    <input type="radio" name="search" value="Date">
+    <label for="Date">Date</label>
+    <input type="radio" name="search" value="Bills">
+    <label for="Bills">Bills</label><br>
+    <input type="search" id="search_text" placeholder="search" name="search_text"/>
     <button class=".button" type="submit" value="search">Submit</button>
   </form>
 </div>
