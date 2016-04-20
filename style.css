@@ -112,6 +112,7 @@ ul {
 	font-family: 'Gentium Book Basic', serif;
 	font-size: 14px;
 	margin-bottom:1.5em;
+	list-style: circle;
 }
 
 .button {
@@ -163,7 +164,7 @@ form {
 }
 
 #banner{
-	
+
     width:100%;
 }
 
