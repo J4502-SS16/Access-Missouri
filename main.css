@@ -556,8 +556,8 @@ article {
     	flex-direction: column;
     }
 
-    .exlawmakerimage{
-      float: center;
+    .exlawmakerimage {
+      /*float: center;*/
       margin-left: 100px;
       margin-right:0px;
       margin-bottom: 100px;
@@ -571,7 +571,7 @@ article {
     	display: block;
     	align-items: center;
     	justify-content: center;
-
+}
 /* ==================================================
               Result Page Style
 ============================================ */
@@ -612,7 +612,6 @@ article {
   margin-left: 15px;
 }
 
-<<<<<<< HEAD
 .container{
   display: flex;
   flex-direction: row;
@@ -631,7 +630,6 @@ article {
 		margin-right: auto;
 	}
 }
-=======
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
        Search Page Style
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
@@ -708,12 +706,6 @@ label:before {
     width:80%;
     margin-top: 100px;
   }
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 /*
 .bill,
@@ -759,8 +751,8 @@ label:before {
     	display: block;
     	align-items: center;
     	justify-content: center;
-    	/*margin: 100px;*/
-    }
+    	/*margin: 100px;
+    }*/
 
     .bill {
     	width:60%;
@@ -772,24 +764,16 @@ label:before {
     	display: flex;
     	flex-direction: column;
     }
-*/
 
 
   /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
          Contactus Page Style
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-<<<<<<< Updated upstream
     .contact {
       width: 80%;
       margin: auto;
       margin-bottom: 3em;
     }
-=======
->>>>>>> origin/gh-pages
-=======
->>>>>>> origin/gh-pages
->>>>>>> Stashed changes
-
 
   /* ==============================================
            Bills Result Style
@@ -879,18 +863,7 @@ label:before {
                 box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
             }
 
-
-=======
    .contact {
      width: 80%;
      margin: 3em;
    }
-
-
-    =======
-    >>>>>>> origin/gh-pages
-    =======
-    >>>>>>> origin/gh-pages
-    >>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> origin/gh-pages
