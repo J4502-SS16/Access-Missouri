@@ -521,7 +521,9 @@ article {
     ============================================= */
 
 .lawmakers,
-.lawmaker-info{
+.lawmaker-info1,
+.lawmaker-info2,
+.lawmaker-info3 {
   display: flex;
   flex-direction: column;
   margin:30px auto;
@@ -540,12 +542,18 @@ article {
   margin-top: 2em;
 }
 
-.lawmaker-info img,
-.lawmaker-info section {
+/*.lawmaker-info1,
+.lawmaker-info2,
+.lawmaker-info3 img,
+.lawmaker-info1,
+.lawmaker-info2,
+.lawmaker-info3 section {
   margin-left: 2em;
-}
+}*/
 
-.lawmaker-info section {
+.lawmaker-info1,
+.lawmaker-info2,
+.lawmaker-info3 section {
   flex-grow: 1;
 }
 
@@ -594,6 +602,12 @@ article {
     	display: block;
     	align-items: center;
     	justify-content: center;
+}
+
+.lawmaker-info-all {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
 }
 /* ==================================================
               Result Page Style
