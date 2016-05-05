@@ -254,8 +254,6 @@ nav li:last-child {
 .box2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-top: 1em;
 }
 
 .home-search h3 {
@@ -473,6 +471,7 @@ article {
   	display: inline-block;
   	width: 120px;
   	padding: 10px;
+    margin: 0 0 30px 0;
   }
 
   .button a:active {
@@ -904,3 +903,67 @@ label:before {
      width: 80%;
      margin: 3em;
    }
+
+   /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+       Lawmaker result page
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+  .lawmaker-info {
+    display: flex;
+  }
+
+  .exlawmakerimage {
+    margin: 20px 20px 20px 40px;
+  }
+
+  .exlawmakerinfo {
+    margin:20px 20px 20px 40px;
+  }
+
+
+   /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+       The scroll box
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+  html {
+  background: white;
+  font: 120% sans-serif;
+}
+.scrollbox {
+  overflow: auto;
+  width: 600px;
+  max-height: 211px;
+  margin: 20px 20px 20px 40px;
+  border: 1px solid #ccc;
+  z-index: 999;
+
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+  
+  /* Opera doesn't support this in the shorthand */
+  background-attachment: local, local, scroll, scroll;
+}
+.scrollbox ul {
+  margin: 0;
+  padding: 0;
+}
+.scrollbox li {
+  font: 13px/16px Arial, Helvetica, sans-serif;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  background-color: rgba(229, 243, 253, 0.8);
+}
+.scrollbox li:hover {
+  background-color: rgba(193, 209, 225, 0.8);
+}
+.scrollbox li:last-child {
+  border-bottom: none;
+}
+.scrollbox label, .scrollbox input {
+  cursor: pointer;
+}
+
+.voting {
+  font-family: ;
+}
