@@ -909,6 +909,7 @@ label:before {
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
   .lawmaker-info {
     display: flex;
+    margin: 0 30px 0 30px;
   }
 
   .exlawmakerimage {
