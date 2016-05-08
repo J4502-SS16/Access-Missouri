@@ -1044,3 +1044,24 @@ label:before {
 .voting {
   text-align: center;
 }
+
+@media only screen and (max-width: 780px) {
+   #intro {
+     width:90%;
+   }
+
+   .article1,
+   .article2 {
+     display:flex;
+     flex-direction: column;
+   }
+
+   img {
+     margin:0 auto;
+   }
+
+
+
+
+
+}
