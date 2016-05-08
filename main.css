@@ -539,6 +539,9 @@ article {
   flex-direction: column;
   justify-content: left;
   margin-top: 2em;
+  margin-left: 3px;
+  
+
 }
 
 /*.lawmaker-info1,
@@ -606,7 +609,8 @@ article {
 .lawmaker-info-all {
   display: flex;
   justify-content: space-between;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* ==================================================
               Result Page Style
