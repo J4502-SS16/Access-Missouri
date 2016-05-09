@@ -693,16 +693,14 @@ article {
  }
 
 .search-page a:hover {
-  text-decoration: underline;
   color:#929292;
 }
 
-
-  .search-container{
+  /*.search-container{
   width: 80%;
   display: block;
   margin: 0 auto;
-}
+}*/
 
 input#search-bar{
   margin: 0 auto;
@@ -743,6 +741,7 @@ input#search-bar{
 input [type=radio]{
 
 }
+
 
 /*.search_menu {
     display: flex;
