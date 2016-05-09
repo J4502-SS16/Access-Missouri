@@ -697,9 +697,6 @@ article {
   color:#929292;
 }
 
-.search-page {
-  text-align: center;
-}
 
   .search-container{
   width: 80%;
@@ -744,6 +741,7 @@ input#search-bar{
 }
 
 input [type=radio]{
+
 }
 
 /*.search_menu {
