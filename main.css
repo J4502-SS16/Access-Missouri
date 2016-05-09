@@ -680,20 +680,25 @@ article {
     margin-bottom: 5em;
   }
 
- .search-page ul {
+ /*.search-page ul {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
- }
+ }*/
 
  .search-page a {
    text-decoration: none;
    color:black;
+   padding-right: 10px;
  }
 
 .search-page a:hover {
   text-decoration: underline;
   color:#929292;
+}
+
+.search-page {
+  text-align: center;
 }
 
   .search-container{
@@ -739,9 +744,8 @@ input#search-bar{
 }
 
 input [type=radio]{
-  padding: 20px;
 }
-]
+
 /*.search_menu {
     display: flex;
     flex-flow: row;
