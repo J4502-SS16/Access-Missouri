@@ -673,7 +673,6 @@ article {
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
        Search Page Style
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-
   .search-page {
     width:80%;
     margin: 0 auto;
@@ -739,7 +738,10 @@ input#search-bar{
   right: -55px;
 }
 
-
+input [type=radio]{
+  padding-left: 100px;
+}
+]
 /*.search_menu {
     display: flex;
     flex-flow: row;
@@ -758,7 +760,7 @@ input#search-bar{
     margin: 0 0 5px 20px;
   }*/
 
-  label {
+/*  label {
     display: inline-block;
     cursor: pointer;
     position: relative;
@@ -794,7 +796,7 @@ label:before {
     bottom: 1px;
     background-color: #aaa;
     box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
-}
+}*/
 
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
