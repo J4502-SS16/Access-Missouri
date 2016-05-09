@@ -739,7 +739,7 @@ input#search-bar{
 }
 
 input [type=radio]{
-  padding-left: 100px;
+  padding: 20px;
 }
 ]
 /*.search_menu {
